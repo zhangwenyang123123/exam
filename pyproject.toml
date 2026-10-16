@@ -3,4 +3,20 @@ name = "exam"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "feedparser>=6.0.14",
+    "langchain-text-splitters>=0.3.0",
+    "sentence-transformers>=3.0.0",
+    "pymilvus>=2.4.0",
+    "python-dotenv>=1.0.0",
+    "fastapi>=0.143.2",
+    "uvicorn>=0.54.0",
+    "langchain-huggingface>=1.2.3",
+    "openai>=3.31.0",
+    "pymongo>=4.19.0",
+]
+
+[project.optional-dependencies]
+# 新闻爬虫可选增强：更强健的 RSS/Atom 解析（缺失时自动回退标准库 xml.etree）
+crawlers = ["feedparser>=6.0"]

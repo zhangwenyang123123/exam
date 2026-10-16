@@ -1,0 +1,16 @@
+# 环境与密钥（切勿提交）
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# 数据产物（可随时重新采集/生成，体积大）
+*_raw.json
+cleaned_docs.json
+pipeline/chunk_embeds.json

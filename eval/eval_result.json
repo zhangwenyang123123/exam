@@ -1,0 +1,311 @@
+{
+  "summary": {
+    "total_questions": 20,
+    "evaluated": 20,
+    "errors": 0,
+    "avg_recall@5": 0.75,
+    "avg_faithfulness": 0.9925
+  },
+  "details": [
+    {
+      "index": 1,
+      "question": "力拓2026年三季度铜产量公告了什么消息？",
+      "expected_answer": "力拓宣布2026年三季度铜产量创下历史新高。",
+      "answer": "根据【证据5】（doc_id=news-d9326d2406a3，来源=mining_com，时间=2026-10-10），力拓（Rio Tinto）宣布其2026年第三季度铜产量创下纪录（record copper output），并提到原因是来自电动汽车（EV）供应链的强劲需求。\n\n需要说明的是，该证据仅提供了上述概要信息，未披露具体产量数字等细节，知识库中未检索到更详细的产量数据。",
+      "retrieved_chunk_ids": [
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 2,
+      "question": "力拓铜产量创纪录的主要原因是什么？",
+      "expected_answer": "电动汽车（EV）供应链的强劲需求。",
+      "answer": "根据【检索上下文】，力拓（Rio Tinto）2026年第三季度铜产量创纪录的主要原因是**来自电动汽车（EV）供应链的强劲需求**。\n\n证据来源：doc_id=news-d9326d2406a3（来源 mining_com，时间 2026-10-10），原文为“Rio Tinto announced a record copper output for Q3 2026, citing strong demand from the EV supply chain.”\n\n需说明的是，检索上下文中仅提及这一条原因，未提供其他更详细的解释。",
+      "retrieved_chunk_ids": [
+        "policy-fe4a5037aba4#c000",
+        "price-9b954ff0396d#c000",
+        "price-5cf43651dd76#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 3,
+      "question": "mining.com在2026年10月10日发布了哪条铜业新闻？",
+      "expected_answer": "力拓（Rio Tinto）2026年三季度铜产量创历史新高，受益于EV供应链强劲需求。",
+      "answer": "根据检索上下文，mining.com 在 2026-10-10 发布的铜业新闻为：\n\n**Rio Tinto 宣布 2026 年第三季度铜产量创纪录，并称电动汽车（EV）供应链需求强劲。**\n\n来源：doc_id=news-d9326d2406a3（来源 mining_com，时间 2026-10-10T08:30:00+00:00）。",
+      "retrieved_chunk_ids": [
+        "price-5cf43651dd76#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-9b954ff0396d#c000",
+        "news-d9326d2406a3#c000",
+        "news-2e12617f448c#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 4,
+      "question": "力拓铜产量新闻的发布媒体是哪个？",
+      "expected_answer": "mining.com（来源标识 mining_com）。",
+      "answer": "根据【检索上下文】，力拓（Rio Tinto）铜产量新闻的来源为 **mining_com**（见证据5，doc_id=news-d9326d2406a3）。该证据显示：Rio Tinto 公布了 2026 年第三季度创纪录的铜产量，来源标注为 mining_com，发布时间为 2026-10-10T08:30:00+00:00。\n\n需要说明的是，检索上下文中仅提供了来源标识“mining_com”，未给出该媒体的完整名称或更多介绍信息。",
+      "retrieved_chunk_ids": [
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 5,
+      "question": "中国稀土集团2026年10月初发布了什么文件？",
+      "expected_answer": "《关于2026年稀土开采总量控制指标的通知》。",
+      "answer": "根据【检索上下文】，无法确认“中国稀土集团2026年10月初发布了什么文件”。\n\n现有证据中：\n\n- 【证据1】（doc_id=policy-fe4a5037aba4）提到“二〇二六年度稀土开采总量控制指标下达”，但未说明发布主体是中国稀土集团，也未给出具体发布日期（仅标注时间为2026-10-05）。\n- 其余证据涉及铜、碳酸锂价格及 Rio Tinto 铜产量新闻，与稀土集团文件无关。\n\n因此，知识库中未检索到能够回答该问题的相关信息。",
+      "retrieved_chunk_ids": [
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 0.95
+    },
+    {
+      "index": 6,
+      "question": "2026年稀土开采总量控制指标通知的核心内容是什么？",
+      "expected_answer": "下达2026年度稀土开采总量控制指标，要求各单位认真贯彻执行、严格落实安全生产责任、确保指标按时完成。",
+      "answer": "根据【检索上下文】中的证据1（doc_id=policy-fe4a5037aba4，来源=cnrare_policy，时间=2026-10-05），该通知的核心内容为：\n\n- 依据国家相关规定，下达**二〇二六年度稀土开采总量控制指标**；\n- 要求各单位认真贯彻执行；\n- 严格落实安全生产责任；\n- 确保指标按时完成。\n\n需要说明的是，该证据仅提供了通知的总体要求，**未包含具体的指标数值、分配方案或执行细则**。如需了解具体指标数量等信息，知识库中未检索到相关内容。",
+      "retrieved_chunk_ids": [
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 7,
+      "question": "稀土开采总量控制指标是由哪个单位发布的？",
+      "expected_answer": "中国稀土集团（来源标识 cnrare_policy）。",
+      "answer": "根据【检索上下文】，**无法确定稀土开采总量控制指标是由哪个单位发布的**。\n\n证据1（doc_id=policy-fe4a5037aba4）虽然提到了“二〇二六年度稀土开采总量控制指标下达”，但内容中仅表述为“根据国家相关规定”，并未指明具体的发布单位。因此，知识库中未检索到能够回答该问题的相关信息。",
+      "retrieved_chunk_ids": [
+        "policy-fe4a5037aba4#c000",
+        "price-9b954ff0396d#c000",
+        "price-5cf43651dd76#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 0,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 8,
+      "question": "稀土开采指标通知对各单位提出了哪些要求？",
+      "expected_answer": "认真贯彻执行，严格落实安全生产责任，确保指标按时完成。",
+      "answer": "根据【检索上下文】中的证据1（doc_id=policy-fe4a5037aba4，来源=cnrare_policy），该稀土开采总量控制指标通知对各单位提出的要求包括：\n\n1. **认真贯彻执行**——严格落实相关指标要求；\n2. **严格落实安全生产责任**；\n3. **确保指标按时完成**。\n\n需要说明的是，检索到的该证据仅为通知的开头部分，未包含指标的具体数量或分配细节。如需了解更完整的要求内容，知识库中暂未检索到相关信息。",
+      "retrieved_chunk_ids": [
+        "policy-fe4a5037aba4#c000",
+        "price-9b954ff0396d#c000",
+        "price-5cf43651dd76#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 9,
+      "question": "2026年10月14日LME铜的结算价是多少？",
+      "expected_answer": "9872.5美元/吨（settlement结算价）。",
+      "answer": "2026年10月14日LME铜的结算价为 **9872.5 美元/吨**（涨跌幅 0.31%，成交量 12345）。  \n依据：doc_id=price-5cf43651dd76（来源：lme_price）。",
+      "retrieved_chunk_ids": [
+        "price-5cf43651dd76#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 10,
+      "question": "2026年10月14日LME铜的涨跌幅是多少？",
+      "expected_answer": "上涨0.31%。",
+      "answer": "2026年10月14日LME铜的涨跌幅为 **0.31%**。（来源：doc_id=price-5cf43651dd76）",
+      "retrieved_chunk_ids": [
+        "price-5cf43651dd76#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 0.95
+    },
+    {
+      "index": 11,
+      "question": "2026年10月14日LME铜的成交量是多少？",
+      "expected_answer": "12345。",
+      "answer": "根据【检索上下文】证据1（doc_id=price-5cf43651dd76），2026年10月14日 LME 铜（价格类型 settlement）的成交量为 **12345**。",
+      "retrieved_chunk_ids": [
+        "price-5cf43651dd76#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 0.95
+    },
+    {
+      "index": 12,
+      "question": "LME铜价9872.5美元/吨对应的是哪种价格类型？",
+      "expected_answer": "settlement（结算价），交易日为2026-10-14。",
+      "answer": "根据【证据1】（doc_id=price-5cf43651dd76），LME铜价9872.5美元/吨对应的价格类型是 **settlement（结算价）**。该记录显示：交易日2026-10-14，价格类型settlement，收盘价9872.5$/t，涨跌幅0.31%，成交量12345。",
+      "retrieved_chunk_ids": [
+        "price-5cf43651dd76#c000",
+        "price-9b954ff0396d#c000",
+        "policy-fe4a5037aba4#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 13,
+      "question": "SHFE碳酸锂的收盘价是多少？",
+      "expected_answer": "75650元/吨。",
+      "answer": "根据检索上下文，SHFE碳酸锂的收盘价为 **75650.0 元/吨**，涨跌 **-820.0 元/吨**，成交量 9800（来源：doc_id=price-9b954ff0396d，来源 shfe_price）。\n\n需要说明的是，该条记录中“交易日未知”，因此无法确认该收盘价对应的具体交易日期。",
+      "retrieved_chunk_ids": [
+        "price-9b954ff0396d#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 14,
+      "question": "SHFE碳酸锂当期价格涨跌情况如何？",
+      "expected_answer": "下跌820元/吨。",
+      "answer": "根据检索上下文，SHFE碳酸锂当期收盘价为 75650.0 元/吨，涨跌为 **-820.0 元/吨**（即下跌 820.0 元/吨），成交量为 9800（来源：doc_id=price-9b954ff0396d）。\n\n需要说明的是，该条价格记录中“交易日未知”，因此无法确认其对应的具体交易日期。",
+      "retrieved_chunk_ids": [
+        "price-9b954ff0396d#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 15,
+      "question": "SHFE碳酸锂的成交量是多少？",
+      "expected_answer": "9800。",
+      "answer": "根据【证据1】（doc_id=price-9b954ff0396d，来源=shfe_price），SHFE 碳酸锂的成交量为 **9800**。\n\n补充说明：该条记录中交易日未知，收盘价为 75650.0 元/吨，涨跌 -820.0 元/吨。",
+      "retrieved_chunk_ids": [
+        "price-9b954ff0396d#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 16,
+      "question": "SHFE碳酸锂行情记录的价格类型和计价单位是什么？",
+      "expected_answer": "价格类型为close（收盘价），计价单位为元/吨（人民币）。",
+      "answer": "根据【证据1】（doc_id=price-9b954ff0396d，来源=shfe_price）：\n\n- **价格类型**：close（收盘价）\n- **计价单位**：元/吨\n\n该记录显示 SHFE 碳酸锂收盘价为 75650.0 元/吨，涨跌 -820.0 元/吨，成交量 9800。",
+      "retrieved_chunk_ids": [
+        "price-9b954ff0396d#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 1,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 17,
+      "question": "近7天澳洲锂出口政策有何变化？",
+      "expected_answer": "知识库中未检索到相关信息：当前入库文档不包含澳大利亚锂出口政策内容，应如实拒答而非编造。",
+      "answer": "根据检索上下文，**知识库中未检索到相关信息**。\n\n具体说明：\n- 现有证据中没有任何关于“澳洲锂出口政策”的内容。\n- 与锂相关的仅有【证据3】（doc_id=price-9b954ff0396d），为 SHFE 碳酸锂收盘价行情数据，不涉及出口政策。\n- 与政策相关的仅有【证据1】（doc_id=policy-fe4a5037aba4），内容为中国稀土开采总量控制指标，与澳洲锂出口无关。\n- 其余证据涉及铜价（【证据2】）、无法解析日期的新闻（【证据4】）以及 Rio Tinto 铜产量（【证据5】），均与问题无关。\n\n因此，无法就“近7天澳洲锂出口政策变化”给出回答。",
+      "retrieved_chunk_ids": [
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 0,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 18,
+      "question": "LME镍最近一次的结算价是多少？",
+      "expected_answer": "知识库中未检索到相关信息：当前仅入库LME铜与SHFE碳酸锂行情，无LME镍价格数据。",
+      "answer": "知识库中未检索到相关信息。\n\n说明：现有检索上下文中只包含 LME 铜的结算价（doc_id=price-5cf43651dd76，2026-10-14，9872.5$/t），以及 SHFE 碳酸锂收盘价（doc_id=price-9b954ff0396d），没有关于 LME 镍的任何价格数据，因此无法回答 LME 镍最近一次的结算价。",
+      "retrieved_chunk_ids": [
+        "price-5cf43651dd76#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 0,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 19,
+      "question": "近30天Mysteel铁矿石港口现货价格指数是多少？",
+      "expected_answer": "知识库中未检索到相关信息：铁矿石行情数据尚未完成清洗入库。",
+      "answer": "知识库中未检索到相关信息。\n\n【检索上下文】中没有任何 Mysteel 铁矿石港口现货价格指数的数据。现有价格类证据仅涉及：\n- LME 铜结算价（doc_id: price-5cf43651dd76）\n- SHFE 碳酸锂收盘价（doc_id: price-9b954ff0396d）\n\n均与铁矿石无关，因此无法回答该问题。",
+      "retrieved_chunk_ids": [
+        "price-5cf43651dd76#c000",
+        "policy-fe4a5037aba4#c000",
+        "price-9b954ff0396d#c000",
+        "news-2e12617f448c#c000",
+        "news-d9326d2406a3#c000"
+      ],
+      "recall@5": 0,
+      "faithfulness": 1.0
+    },
+    {
+      "index": 20,
+      "question": "智利国家铜业公司近期罢工对产量有何影响？",
+      "expected_answer": "知识库中未检索到相关信息：当前入库新闻中不包含智利铜矿罢工相关内容。",
+      "answer": "知识库中未检索到相关信息。\n\n【检索上下文】中没有任何关于智利国家铜业公司（Codelco）罢工及其对产量影响的内容。现有证据仅涉及：稀土开采总量控制指标（doc_id=policy-fe4a5037aba4）、LME铜价（doc_id=price-5cf43651dd76）、SHFE碳酸锂价格（doc_id=price-9b954ff0396d）、力拓2026年三季度铜产量（doc_id=news-d9326d2406a3）以及一篇日期无法解析的新闻（doc_id=news-2e12617f448c），均与您的问题无关。",
+      "retrieved_chunk_ids": [
+        "policy-fe4a5037aba4#c000",
+        "price-5cf43651dd76#c000",
+        "price-9b954ff0396d#c000",
+        "news-d9326d2406a3#c000",
+        "news-2e12617f448c#c000"
+      ],
+      "recall@5": 0,
+      "faithfulness": 1.0
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "力拓2026年三季度铜产量公告了什么消息？",
+    "expected_answer": "力拓宣布2026年三季度铜产量创下历史新高。"
+  },
+  {
+    "question": "力拓铜产量创纪录的主要原因是什么？",
+    "expected_answer": "电动汽车（EV）供应链的强劲需求。"
+  },
+  {
+    "question": "mining.com在2026年10月10日发布了哪条铜业新闻？",
+    "expected_answer": "力拓（Rio Tinto）2026年三季度铜产量创历史新高，受益于EV供应链强劲需求。"
+  },
+  {
+    "question": "力拓铜产量新闻的发布媒体是哪个？",
+    "expected_answer": "mining.com（来源标识 mining_com）。"
+  },
+  {
+    "question": "中国稀土集团2026年10月初发布了什么文件？",
+    "expected_answer": "《关于2026年稀土开采总量控制指标的通知》。"
+  },
+  {
+    "question": "2026年稀土开采总量控制指标通知的核心内容是什么？",
+    "expected_answer": "下达2026年度稀土开采总量控制指标，要求各单位认真贯彻执行、严格落实安全生产责任、确保指标按时完成。"
+  },
+  {
+    "question": "稀土开采总量控制指标是由哪个单位发布的？",
+    "expected_answer": "中国稀土集团（来源标识 cnrare_policy）。"
+  },
+  {
+    "question": "稀土开采指标通知对各单位提出了哪些要求？",
+    "expected_answer": "认真贯彻执行，严格落实安全生产责任，确保指标按时完成。"
+  },
+  {
+    "question": "2026年10月14日LME铜的结算价是多少？",
+    "expected_answer": "9872.5美元/吨（settlement结算价）。"
+  },
+  {
+    "question": "2026年10月14日LME铜的涨跌幅是多少？",
+    "expected_answer": "上涨0.31%。"
+  },
+  {
+    "question": "2026年10月14日LME铜的成交量是多少？",
+    "expected_answer": "12345。"
+  },
+  {
+    "question": "LME铜价9872.5美元/吨对应的是哪种价格类型？",
+    "expected_answer": "settlement（结算价），交易日为2026-10-14。"
+  },
+  {
+    "question": "SHFE碳酸锂的收盘价是多少？",
+    "expected_answer": "75650元/吨。"
+  },
+  {
+    "question": "SHFE碳酸锂当期价格涨跌情况如何？",
+    "expected_answer": "下跌820元/吨。"
+  },
+  {
+    "question": "SHFE碳酸锂的成交量是多少？",
+    "expected_answer": "9800。"
+  },
+  {
+    "question": "SHFE碳酸锂行情记录的价格类型和计价单位是什么？",
+    "expected_answer": "价格类型为close（收盘价），计价单位为元/吨（人民币）。"
+  },
+  {
+    "question": "近7天澳洲锂出口政策有何变化？",
+    "expected_answer": "知识库中未检索到相关信息：当前入库文档不包含澳大利亚锂出口政策内容，应如实拒答而非编造。"
+  },
+  {
+    "question": "LME镍最近一次的结算价是多少？",
+    "expected_answer": "知识库中未检索到相关信息：当前仅入库LME铜与SHFE碳酸锂行情，无LME镍价格数据。"
+  },
+  {
+    "question": "近30天Mysteel铁矿石港口现货价格指数是多少？",
+    "expected_answer": "知识库中未检索到相关信息：铁矿石行情数据尚未完成清洗入库。"
+  },
+  {
+    "question": "智利国家铜业公司近期罢工对产量有何影响？",
+    "expected_answer": "知识库中未检索到相关信息：当前入库新闻中不包含智利铜矿罢工相关内容。"
+  }
+]
